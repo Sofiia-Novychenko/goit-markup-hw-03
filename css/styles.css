@@ -17,13 +17,51 @@ body {
   overflow: hidden;
 }
 .container {
-  margin-bottom: auto;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
   margin-right: auto;
 }
-
-ul {
-  list-style-type: none;
+img {
+  display: block;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.nav-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .link {
   text-decoration: none;
 }
@@ -38,13 +76,6 @@ ul {
   color: #4d5ae5;
 }
 .accent {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .page-nav .link {
@@ -56,17 +87,9 @@ ul {
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 .page-nav .link:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
   text-decoration: underline;
 }
@@ -81,9 +104,6 @@ ul {
 }
 .page-contact .link:hover,
 .page-contact .link:focus {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
@@ -111,12 +131,6 @@ ul {
 }
 .hero-button:hover,
 .hero-button:focus {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
   background-color: #404bbf;
 }
 
