@@ -23,7 +23,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.section-paddings {
+.section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -42,16 +42,17 @@ p {
   margin-bottom: 0;
 }
 
-ul, ol {
+ul {
   list-style-type: none;
   margin-top: 0;
-  margin-bottom: 0;
+    margin-bottom: 0;
   padding-left: 0;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #E7E9FC;
 }
 .nav-page {
   display: flex;
@@ -161,7 +162,14 @@ ul, ol {
   margin-top: 120px;
     margin-bottom: 60px;
 }
+.features-list {
+  display: flex;
+  gap: 24px;
+
+}
 .features-title {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
