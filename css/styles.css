@@ -23,6 +23,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.section-paddings {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 img {
   display: block;
 }
@@ -117,6 +121,8 @@ ul, ol {
 }
 
 .hero-page {
+  padding: 188px 472px 292px;
+
   background-color: #2e2f42;
 }
 .hero-title {
@@ -150,6 +156,10 @@ ul, ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+.features {
+  margin-top: 120px;
+    margin-bottom: 60px;
 }
 .features-title {
   font-weight: 500;
