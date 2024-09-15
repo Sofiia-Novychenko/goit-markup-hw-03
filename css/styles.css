@@ -24,8 +24,8 @@ body {
   margin-right: auto;
 }
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 img {
   display: block;
@@ -92,6 +92,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -112,9 +113,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
   display: block;
   padding-top: 24px;
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -133,6 +135,11 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -144,6 +151,14 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+    padding: 16px 32px;
+    
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -158,14 +173,14 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.features {
-  margin-top: 120px;
-    margin-bottom: 60px;
-}
+
 .features-list {
   display: flex;
-  gap: 24px;
-
+  column-gap: 24px;
+ justify-content: space-between;
+}
+.features-list-item {
+width: calc((100% - 72px) / 4);
 }
 .features-title {
   margin-bottom: 8px;
@@ -182,13 +197,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.team {
+.team-page {
   background-color: #f4f4fd;
 }
-.name-box {
-  background-color: #fff;
-}
-.team .title {
+.team-page .title {
+  margin-bottom: 72px;
+
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -197,7 +211,21 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.name-title {
+
+.name-list {
+  display: flex;
+  column-gap: 24px;
+}
+.name-item-box {
+  background-color: #fff;
+
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  
+}
+
+.name-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -205,7 +233,7 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.name-text {
+.name-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -213,6 +241,8 @@ ul {
 }
 
 .portfolio .title {
+margin-bottom: 72px;
+
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -221,7 +251,26 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
+
+.portfolio-list {
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 24px;
+ row-gap: 48px;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) /3);
+  border-bottom: 1px solid #E7E9FC;
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  
+}
+
 .portfolio-title {
+ margin-top: 32px;
+ margin-bottom: 8px;
+ margin-left: 16px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -229,6 +278,9 @@ ul {
   color: #2e2f42;
 }
 .portfolio-text {
+  margin-bottom: 32px;
+  margin-left: 16px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -236,6 +288,8 @@ ul {
 }
 
 .basement {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
 }
 .basement .accent {
@@ -249,6 +303,9 @@ ul {
   color: #f4f4fd;
 }
 .slogan-text {
+ width: 264px;
+ padding-top: 16px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
