@@ -256,7 +256,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   color: #2e2f42;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .name-item-text {
   font-size: 16px;
