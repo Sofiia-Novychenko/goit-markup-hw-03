@@ -6,14 +6,11 @@
     <title>WebStudio</title>
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,41 +22,39 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="navigation">
       <div class="container">
-        <div class="navigation">
-          <nav class="nav-page">
-            <a href="./index.html" class="logo"
-              >Web<span class="accent">Studio</span></a
-            >
-            <ul class="page-nav">
-              <li>
-                <a class="nav-link" href="./index.html">Studio</a>
-              </li>
-              <li>
-                <a class="nav-link" href="">Portfolio</a>
-              </li>
-              <li>
-                <a class="nav-link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+        <nav class="nav-page">
+          <a href="./index.html" class="logo"
+            >Web<span class="accent">Studio</span></a
+          >
+          <ul class="page-nav">
+            <li>
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-          <address class="page-contact">
-            <ul class="contact-list">
-              <li>
-                <a class="contact-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="contact-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+        <address class="page-contact">
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
@@ -119,8 +114,10 @@
                 alt="a smiling middle-aged man with a beard"
                 width="264"
               />
-              <h3 class="name-item-title">Mark Guerrero</h3>
-              <p class="name-item-text">Product Designer</p>
+              <div class="name-item-box-text">
+                <h3 class="name-item-title">Mark Guerrero</h3>
+                <p class="name-item-text">Product Designer</p>
+              </div>
             </li>
 
             <li class="name-item-box">
@@ -129,8 +126,10 @@
                 alt="a young man smiling"
                 width="264"
               />
-              <h3 class="name-item-title">Tom Ford</h3>
-              <p class="name-item-text">Frontend Developer</p>
+              <div class="name-item-box-text">
+                <h3 class="name-item-title">Tom Ford</h3>
+                <p class="name-item-text">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="name-item-box">
@@ -139,8 +138,10 @@
                 alt="a young woman smiling"
                 width="264"
               />
-              <h3 class="name-item-title">Camila Garcia</h3>
-              <p class="name-item-text">Marketing</p>
+              <div class="name-item-box-text">
+                <h3 class="name-item-title">Camila Garcia</h3>
+                <p class="name-item-text">Marketing</p>
+              </div>
             </li>
 
             <li class="name-item-box">
@@ -149,8 +150,10 @@
                 alt="a smiling young man with a beard "
                 width="264"
               />
-              <h3 class="name-item-title">Daniel Wilson</h3>
-              <p class="name-item-text">UI Designer</p>
+              <div class="name-item-box-text">
+                <h3 class="name-item-title">Daniel Wilson</h3>
+                <p class="name-item-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -167,8 +170,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-list-item-text">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -177,8 +182,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-list-item-text">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -187,8 +194,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-list-item-text">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -197,8 +206,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-list-item-text">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -207,8 +218,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-list-item-text">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -217,8 +230,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-title">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="c">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
